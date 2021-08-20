@@ -3,6 +3,7 @@ import React from 'react'
 import '../assets/css/Myprojects.css'
 
 import p1Img from '../assets/images/dicyg-logo.png'
+import ts3Img from '../assets/images/proyecto_ts3.png'
 
 function Myprojects(){
     return(
@@ -16,10 +17,10 @@ function Myprojects(){
                         <div className="size-pc col-md-4 d-flex justify-content-center">
                             <div className="card project-card">
                                 <div className="row margin-card">
-                                    <div className="justify-content-center d-flex">
+                                    <div className="justify-content-center d-flex align-items-center">
                                         <img src={p1Img} alt="" className="project-img img-fluid h-100 justify-content-center"></img>
                                     </div>
-                                    <div className="card-body my-card-body">
+                                    <div className="card-body my-card-body d-flex justify-content-center align-items-center">
                                         <p className="project-name">Historial de soportes técnicos</p>
                                     </div>
                                 </div>
@@ -32,9 +33,7 @@ function Myprojects(){
                                         ¿Quieres saber más?
                                     </p>
                                     <div className="row d-flex justify-content-center align-items-center">
-                                        <a className="btn my-btn">Descripción</a>
-                                        <br></br>
-                                        <a className="btn my-btn">Github</a>
+                                        <a href="https://github.com/alexorozco2410/SistemaSoportes" target="_blank" rel="noreferrer" className="btn my-btn">Github</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,59 +42,28 @@ function Myprojects(){
                         <div className="size-pc col-md-4 d-flex justify-content-center">
                             <div className="card project-card">
                                 <div className="row margin-card">
-                                    <div className="justify-content-center d-flex">
-                                        <img src={p1Img} alt="" className="project-img img-fluid h-100 justify-content-center"></img>
+                                    <div className="justify-content-center d-flex align-items-center">
+                                        <img src={ts3Img} alt="" className="project-img img-fluid h-100 justify-content-center"></img>
                                     </div>
-                                    <div className="card-body my-card-body">
-                                        <p className="project-name">Historial de soportes técnicos</p>
+                                    <div className="card-body my-card-body d-flex justify-content-center align-items-center">
+                                        <p className="project-name">Maquetas en RA</p>
                                     </div>
                                 </div>
 
                                 <div className="hover-card d-flex justify-content-center flex-column h-100">
-                                    <p className="hover-text">Proyecto realizado en servicio social para la División de 
-                                        Ingeniería Civil y Geomatica (DICYG) de la UNAM
+                                    <p className="hover-text">Aplicación para hacer maquetas en realidad aumentada,
+                                    presentado en la materia de Temas Selectos 3
                                     </p>
                                     <p className="text-btns">
                                         ¿Quieres saber más?
                                     </p>
                                     <div className="row d-flex justify-content-center">
-                                        <a className="btn my-btn">Descripción</a>
-                                        <br></br>
-                                        <a className="btn my-btn">Github</a>
+                                        <a href="https://github.com/alexorozco2410/TS3Proyecto" target="_blank" rel="noreferrer" className="btn my-btn">Github</a>
                                     </div>
                                 </div>
                             
                             </div>
                         </div>
-
-                        <div className="size-pc col-md-4 d-flex justify-content-center">
-                            <div className="card project-card">
-                                <div className="row margin-card">
-                                    <div className="justify-content-center d-flex">
-                                        <img src={p1Img} alt="" className="project-img img-fluid h-100 justify-content-center"></img>
-                                    </div>
-                                    <div className="card-body my-card-body">
-                                        <p className="project-name">Historial de soportes técnicos</p>
-                                    </div>
-                                </div>
-
-                                <div className="hover-card d-flex justify-content-center flex-column h-100">
-                                    <p className="hover-text">Proyecto realizado en servicio social para la División de 
-                                        Ingeniería Civil y Geomatica (DICYG) de la UNAM
-                                    </p>
-                                    <p className="text-btns">
-                                        ¿Quieres saber más?
-                                    </p>
-                                    <div className="row d-flex justify-content-center">
-                                        <a className="btn my-btn">Descripción</a>
-                                        <br></br>
-                                        <a className="btn my-btn">Github</a>
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-
 
 
                     </div>
