@@ -43,7 +43,6 @@
     max-width: 85%;
     max-height: 100%;
 
-    opacity: 95%;
     border-radius: 15px !important;
     border: 3px solid rgb(0, 0, 0) !important;
 
@@ -70,10 +69,6 @@
     padding: 2% !important;
     color: rgba(255, 255, 255, 0.8);
     max-height: 100% !important;
-}
-
-.project-card:hover {
-    opacity: 80%;
 }
 
 .project-card:hover .hover-card {
