@@ -1,0 +1,72 @@
+.my-table {
+    background-color: white;
+    border: 2px solid rgba(204, 40, 0, 1) !important;
+    
+}
+.my-thead{
+    background-color: rgba(204, 40, 0, 1) !important;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.my-thover:hover{
+    background-color: rgba(43, 19, 179, 0.801);
+    transform: scaleY(1.2) scaleX(1.1) translateZ(1000px) translateY(-7px);
+    color: white;
+    transition: all 450ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.tittle-e{  
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:rgba(215, 215, 0, 0.85);
+    font-size: 55px;
+    margin-bottom: 2rem;
+
+}
+
+.t-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.t-tittle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.e-table{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+    .tittle-e{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .tittle-e{
+        font-size: 45px;
+    }
+    .t-text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .tittle-e{
+        font-size: 40px;
+    }
+    .t-text{
+        font-size: 17px;
+    }
+}

@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/js/dist/collapse'
+import 'bootstrap/js/dist/carousel'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

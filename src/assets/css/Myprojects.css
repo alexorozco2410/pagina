@@ -1,0 +1,223 @@
+.bg-projects {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cont-projects{
+    background-color: rgba(0, 50, 150, 0.2) !important;
+    padding: 0 !important;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    
+
+    box-shadow: 0px 5px 30px 10px rgba(120, 146, 199, 0.35);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.projects-tittle  {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 55px !important;
+    padding: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.body2 {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+.project-name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.project-card {
+    max-width: 85%;
+    max-height: 100%;
+
+    opacity: 95%;
+    border-radius: 15px !important;
+    border: 3px solid rgb(0, 0, 0) !important;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 3px 15px 3px rgba(25, 98, 255, 0.5364) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+
+    overflow: hidden;
+
+    transition: all 400ms;
+
+    margin-bottom: 2rem;
+}
+
+.margin-card {
+    margin: 0 !important;
+}
+
+.my-card-body {
+    border-top: 3px solid rgb(0, 0, 0);
+    padding: 2% !important;
+    color: rgba(255, 255, 255, 0.8);
+    max-height: 100% !important;
+}
+
+.project-card:hover {
+    opacity: 80%;
+}
+
+.project-card:hover .hover-card {
+    transform: translateY(0%);
+    transform: translateX(0%);
+}
+
+.hover-card {
+    position: absolute;
+    text-align: justify;
+    padding: 0 8%;
+    color: white;
+    transform: translateY(100%) translateX(-100%);
+    
+    background-color: rgba(0, 33, 153, 0.85);
+    transition: all 450ms;
+}
+
+.my-btn {
+    width: 40% !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.text-btns {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hover-text {
+    padding-bottom: 2rem;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.my-cc{
+    width: unset !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .project-card{
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .project-name{
+        font-size: 30px;
+    }
+    .hover-text{
+        font-size: 18px;
+    }
+    .text-btns {
+        font-size: 22px;
+    }
+    .my-btn {
+        width: 42% !important;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .size-pc{
+        width: 30% !important;
+    }
+    .body2{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .projects-tittle{
+        font-size: 40px !important;
+    }
+    .project-name{
+        font-size: 24px;
+    }
+    .hover-text{
+        font-size: 15px;
+        padding-bottom: 0rem;
+    }
+    .text-btns {
+        font-size: 18px;
+        padding-bottom: 0rem;
+    }
+    .my-btn {
+        width: 100% !important;
+        font-size: 14px !important;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .size-pc{
+        width: 45% !important;
+    }
+    .body2{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .projects-tittle{
+        font-size: 35px !important;
+    }
+    .project-name{
+        font-size: 25px;
+    }
+    .hover-text{
+        font-size: 15px;
+        padding-bottom: 0rem;
+    }
+    .text-btns {
+        font-size: 18px;
+        padding-bottom: 0rem;
+    }
+    .my-btn {
+        width: 100% !important;
+        font-size: 14px !important;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .size-pc{
+        width: 75% !important;
+    }
+    .projects-tittle{
+        font-size: 30px !important;
+    }
+    .project-name{
+        font-size: 30px;
+    }
+    .hover-text{
+        font-size: 18px;
+        padding-bottom: 0rem;
+    }
+    .text-btns {
+        font-size: 21px;
+        padding-bottom: 0rem;
+    }
+    .my-btn {
+        font-size: 16px !important;
+        margin-bottom: 2px;
+    }
+}
+
+
+
